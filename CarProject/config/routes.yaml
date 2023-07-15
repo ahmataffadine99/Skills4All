@@ -1,0 +1,10 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+car_search:
+    path: /car/search
+    controller: App\Controller\CarSearchController::search
+
